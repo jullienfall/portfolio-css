@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    color: #291f1a;
+    font-family: 'Lato', sans-serif;
+}
+span {
+    color: #1ac056;
+    font-weight: 400;
+}
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin: 0;
+    padding: 2em;
+}
+
+/*****Navigation*****/
+
+#navigation {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation ul {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+#navigation li {
+    display: inline-block;
+    padding: 25px;
+}
+#navigation a {
+    color: #1ac056;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all 0.3s;
+}
+#navigation a:hover {
+    color: #291f1a;
+}
+
+/*****Header*****/
+
+header {
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+} 
+.main-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+.main-header h1, h2 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 6em;
+    margin: 0;
+}
+.main-header h2 {
+    font-size: 2em;
+}
+
+/*****O mnie*****/
+
+#omnie {
+    width: 100%;
+    background-color: #f9fcfe;
+    margin: 0;
+    position: relative;
+    padding-bottom: 6em;
+}
+#omnie .omnie-b {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+#omnie .k-omnie {
+    display: inline-block;
+    width: 50%;
+    margin: 0%;
+}
+#omnie-img {
+    text-align: center;
+}
+#omnie img {
+    width: 300px;
+    border: 10px solid #fff;
+}
+#omnie-p {
+   position: absolute;
+   text-align: left;
+}
+#omnie-p p {
+    margin: 0;
+}
+
+/***** Umiejetnosci*****/
+#umiejetnosci {
+    position: relative;
+}
+
+#umiejetnosci p {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+#umiejetnosci-i {
+    text-align: center;
+    margin: 2.5em;
+}
+figure {
+    display: inline-block;
+}
+
+/***** Portfolio *****/
+
+#portfolio {
+    margin: 0;
+    padding-bottom: 6em;
+}
+#portfolio-i {
+    text-align: center;
+}
+.portfolio-b {
+    margin-right: -3px;
+    position: relative;
+    width: 30%;
+    display: inline-block;
+}
+.portfolio-b figure {
+    margin: 0;
+    width: 100%;
+}
+.portfolio-b figure img {
+    width: 100%;
+    margin: 0;
+}
+.hover-text {
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    text-align: center;
+    top: 0;
+    margin: 5px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border: 2px solid #fff;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.portfolio-b:hover .hover-text {
+    opacity: 1;
+}
+
+
+/***** Footer *****/
+
+footer {
+    background-color: #213b50;
+    padding-bottom: 2em;
+}
+#main-footer {
+    width: 90%;
+    margin: 0 auto;
+}
+#main-footer h3 {
+    color: #fff;
+    text-align: left;
+    padding: 0;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    font-size: 2em;
+}
+address {
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 100;
+}
+address a {
+    color: #1ac056;
+}
+#social-media{
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+#social-media a {
+    padding-right: 2em;
+}
+#social-media i {
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
